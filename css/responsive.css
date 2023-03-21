@@ -1,0 +1,275 @@
+
+/* Tablet Responsive */
+
+
+@media(max-width:860px){
+
+    h1{
+        font-size: 30px;
+        border-left: 2px solid rgb(38, 0, 255);
+    }
+    .s1left, .s1right{
+        flex-basis: 100%;
+        
+    }
+    
+    .s1left{
+        order: 5;
+    }
+    .s1left{
+        order: 4;
+    }
+    .s1right img {
+        width: 100%;
+        padding-bottom: 10px ;
+    }
+    .s1left a { 
+        padding: 10px 25px;
+    }
+    .sec2 h2{
+        font-size: 22px;
+        text-align: left;
+        text-transform: uppercases;
+        padding: 0;
+        margin-bottom:0;
+    }
+    .s2col1, .s2col2, .s2col3, .s2col4{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .s2col1 i, .s2col2 i, .s2col3 i,  .s2col4 i{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50px;
+    }
+
+    .s3right h2 {
+        text-align: left;
+        font-size: 22px;
+        text-transform: uppercase;
+       
+    }
+    .s3right p{
+        font-weight: 200;
+        text-align: left;
+    }
+    .s3left, .s3right{
+        flex-basis: 100%;
+        
+    }
+    
+    .s3right{
+        border: 5;
+    }
+    .s3left img {
+        padding-bottom: 10px ;
+    }
+
+    .s4left, .s4right{
+        flex-basis: 100%;
+        
+    }
+
+    .s4right img {
+        width: 100%;
+        text-align: left;
+        padding: 3px 0px 3px;
+    }
+
+
+    .s4left a {
+        padding: 7px 30px;
+    }
+    .s5right, .s5left{
+        flex-basis: 100%;
+    }
+
+    .s5left span{
+        color: red;
+    }
+    .s5right h2 {
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+        /* margin-bottom: 5px; */
+    }
+    .s5left h2 {
+        text-align: center;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    .s5right p {
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    .s5right a{
+        padding: 10px 30px;
+    }
+
+   
+
+
+}
+
+/* Mobile Responsive */
+
+@media(max-width:576px){
+    
+    h1{
+        font-size: 22px;
+        border-left: 2px solid red;
+    }
+    .s1left, .s1right{
+        flex-basis: 100%;
+        
+    }
+    .s1left{
+        order: 5;
+    }
+    .s1left{
+        order: 4;    
+    }
+
+    .s1left p{
+       
+        font-size: 16px;
+        line-height: 25px;
+      
+    }
+    .s1right img {
+        width: 100%;
+        padding-bottom: 10px ;
+    }
+
+    .s2col1, .s2col2, .s2col3, .s2col4{
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+    .s2col1 i, .s2col2 i, .s2col3 i,  .s2col4 i{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 50px;
+        padding-left: 20px;
+    }
+
+    .s2col1 h5, .s2col2 h5, .s2col3 h5,  .s2col4 h5{
+        text-align: center;
+    }
+
+    .s3left, .s3right{
+        flex-basis: 100%;
+        
+    }
+
+    .s3right h2{
+        text-align: left;
+        font-size: 22px;
+        text-transform: uppercase;
+       
+       
+    }
+    .s3right p{
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    .s3right a{
+        padding: 10px 30px;
+    }
+    
+    
+    .s3right{
+        border: 5;
+    }
+    .s3left img {
+        padding-bottom: 10px ;
+    }
+
+    .s4left, .s4right{
+        flex-basis: 100%;
+        
+    }
+
+    .s4left h2 {
+        text-align: left;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    .s4left p {
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+
+    .s4right img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .s4right img {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0px 0px;
+    }
+    .s4left a {
+        padding: 7px 30px;
+    }
+    .s5right, .s5left{
+        flex-basis: 100%;
+    }
+
+   
+    .s5right h2 {
+        text-align: left;
+        font-size: 22px;
+        text-transform: uppercase;
+        /* margin-bottom: 5px; */
+    }
+    .s5left h2 {
+        text-align: left;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .s5left span{
+        color: red;
+    }
+    .s5right p {
+        padding-top: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        padding-bottom: 30px;
+    }
+    .s5right a{
+        padding: 10px 30px;
+    }
+
+    footer h2{
+        text-align:left;
+        font-weight: 300;
+    }
+
+
+
+    .s2col1:hover{
+        box-shadow: 0px 0px 3px 2px rgba(227,118,118,0.75);
+    
+    }
+
+    .s2col2:hover{
+        box-shadow: 0px 0px 2px 2px rgba(255,241,35,0.75);
+    
+    
+    }
+    .s2col3:hover{
+        box-shadow: 0px 0px 2px 2px rgba(35,253,117,0.75);
+    }
+    .s2col4:hover{
+        box-shadow: 0px 0px 2px 2px rgba(56,161,255,0.75);
+    }
+}
